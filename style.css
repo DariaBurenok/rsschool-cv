@@ -22,18 +22,14 @@ body {
   }
   .nav-list li {
     display: inline-block;
-
   }
-  
   .nav {
     width: 100%;
     height: 200px;
     display: flex;
     flex-flow: row nowrap;
-    text-decoration: none;
-    
+    text-decoration: none;  
   }
-
   .nav .conteiner { 
     height: inherit;
     display: flex;
@@ -43,7 +39,7 @@ body {
   }
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: grey;
     margin-right: 30px;
 }
 
@@ -56,10 +52,31 @@ body {
     justify-content: space-around;
     flex-basis: 40%;
   }
-.text1 {
-    
+.mainfunction{
+    padding-left: 164px;
 }
-.myphoto {
-
-
+.section-title{
+    text-decoration: none;
+    color: black;
+}
+.hr {
+    color: black;
+    weight: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-list2 li{
+    display: inline-block;
+    width: 20%;
+}
+.li1 {
+    weight: 25%;
+}
+.footer {
+    padding-left: 100px;
 }
